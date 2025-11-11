@@ -23,6 +23,10 @@ The following Python packages were used in this project:
 2. Generated actionable insights to guide marketing strategy and customer engagement initiatives.  
 
 ## Customer Segments
+![boxplot](visuals/boxplot_by_clusters.png)
+
+![plot_demographics](visuals/plot_demographics.png)
+
 - **Cluster 1:** Big Spenders / Potential Loyalists  
 - **Cluster 2:** New or Inactive Customers (depending on the business context)  
 - **Cluster 3:** Low-Value Recent Buyers  
@@ -30,14 +34,17 @@ The following Python packages were used in this project:
 - **Cluster 5:** Low-Value, Low-Engagement Customers  
 
 ## Actionable Insights
-**High-Value and Loyal Customers (Clusters 1 & 4)**  
-- Focus on retention strategies such as loyalty programs, exclusive offers, and early access promotions.
+**High-Value and Loyal Customers (Clusters 1 & 4)**
+- Cluster 1 & 4 represents young customer groups with high spending and frequency purchases, indicating strong loyal potential.
+- *Recommendation*: Focus on retention strategies such as loyalty programs, exclusive offers, and early access promotions.
 
-**Growth Opportunities (Clusters 2 & 3)**  
-- Design re-engagement or onboarding campaigns (e.g., win-back offers, welcome discounts) to convert these customers into repeat buyers.
+**Growth Opportunities (Clusters 2 & 3)** 
+- Older age with a male-skew profile. Income status is slightly unbalanced with more customers have low or medium income.
+- *Recommendation*: Design re-engagement or onboarding campaigns (e.g., win-back offers, welcome discounts) to convert these customers into repeat buyers.
 
-**Low-Value and Low-Engagement Customers (Cluster 5)**  
-- Implement low-cost marketing strategies such as newsletters or occasional promotions to maintain brand visibility with minimal cost.
+**Low-Value and Low-Engagement Customers (Cluster 5)** 
+- Customers in this segment have low spendings and purchase frequency, making them low priority for high cost marketing campaigns.
+- *Recommendation*: Implement low-cost marketing strategies such as newsletters or occasional promotions to maintain brand visibility with minimal cost.
 
 ## Limitations
 - The analysis is limited by incomplete and inconsistent demographic data, particularly age, gender, and income.  
